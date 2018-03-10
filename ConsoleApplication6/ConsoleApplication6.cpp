@@ -20,6 +20,7 @@ void initGL() {
 	glDepthFunc(GL_LEQUAL);  
 	glShadeModel(GL_SMOOTH);   
 	glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST); 
+	std::cout << "dog test" << std::endl;
 }
 
 void loadTex(){
